@@ -1,0 +1,71 @@
+{
+  "did": "z2qaJC1GyNcUhptJkgLR7t8pR2mNBQWWC9QG3",
+  "name": "z2qaJC1GyNcUhptJkgLR7t8pR2mNBQWWC9QG3",
+  "title": "CrypSnake",
+  "description": "Snake game - part of CrypThor ArcAde Saga",
+  "version": "1.0.7",
+  "homepage": "https://crypthor.did.life/CrypSnake/",
+  "support": "https://braintitan.did.life/CrypSnake",
+  "community": "https://braintitan.did.life/TitanCommunity/discussions/d6a2683a-80f3-49f7-9768-32d9e1c2e4b6",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrypTh0r/CrypSnake.git"
+  },
+  "logo": "logo.png",
+  "components": [],
+  "files": [
+    "screenshots"
+  ],
+  "screenshots": [
+    "5d3cea0b5c45907dedbe18ad94de2b4b.jpeg",
+    "fb66fdfabbd0ecd55f34077ffc182dd8.jpeg"
+  ],
+  "videos": [
+    "https://youtube.com/shorts/5wWL59gpAuM"
+  ],
+  "main": "main",
+  "engine": {
+    "interpreter": "blocklet",
+    "source": {
+      "store": "https://store.blocklet.dev",
+      "name": "z2qa2dGC9EmsjB2WJtUcmuRWx43zTwPUZQF7g",
+      "version": "latest"
+    },
+    "args": []
+  },
+  "interfaces": [
+    {
+      "name": "publicUrl",
+      "path": "/",
+      "port": "BLOCKLET_PORT",
+      "prefix": "*",
+      "protocol": "tcp",
+      "type": "web"
+    }
+  ],
+  "specVersion": "1.0.0",
+  "documentation": "",
+  "license": "",
+  "nftFactory": "",
+  "payment": {
+    "price": [],
+    "share": []
+  },
+  "timeout": {
+    "start": 60
+  },
+  "requirements": {
+    "server": ">=1.7.0",
+    "os": "*",
+    "cpu": "*",
+    "nodejs": "*"
+  },
+  "environments": [],
+  "capabilities": {},
+  "egress": true,
+  "dist": {
+    "tarball": "z2qaJC1GyNcUhptJkgLR7t8pR2mNBQWWC9QG3-1.0.7.tgz",
+    "integrity": "sha512-mdCkATTqxqjISgQRVQ+96iq7KNPaOuMPwCVuXltFJLMTWaW8x5dIn8BFsn5wX7btEdFr96B89+ghNr0XRf8Pgw==",
+    "size": 3873899
+  }
+}
